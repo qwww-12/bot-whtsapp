@@ -12,11 +12,11 @@ def send_instant_message():
             phone_no=phone,
             message=message,
             wait_time=15,
-            tab_close=False  # ما يسدش التاب
+            tab_close=False
         )
         
         print("⏳ Waiting for message to be sent...")
-        time.sleep(20)  # نعطي الوقت باش يتسيفط
+        time.sleep(20)
         
         print("✅ Message should be sent! You can verify manually.")
         
